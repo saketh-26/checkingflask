@@ -11,4 +11,4 @@ def check():
 @app.route('/new')
 def new():
     return render_template('index.html')
-app.run(host='0.0.0.0', port=80)
+app.run()
