@@ -11,4 +11,3 @@ def check():
 @app.route('/new')
 def new():
     return render_template('index.html')
-app.run()
